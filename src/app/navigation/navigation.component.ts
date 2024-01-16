@@ -12,6 +12,7 @@ export class NavigationComponent implements OnInit {
   ngOnInit(): void {}
 
   public setTitle(newTitle: string) {
+    
     this.titleService.setTitle(newTitle);
   }
 
